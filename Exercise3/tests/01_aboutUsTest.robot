@@ -15,3 +15,7 @@ Test About Us Page Contains Expected Text
     ${text}=  Get About Us Text
     Should Contain  ${text}  We are a team of technology enthusiasts and our primary goal for this website and company is to give you a platform to practice Continuous Test Automation. We are a subsidiary of seleniumframework.com
 
+Test About Us Page Testimonials Contains Expected Header
+    Go To About Us
+    ${text}=  Get About Us Testimonial Header Text
+    Should Contain  ${text}  TESTIMONIALS

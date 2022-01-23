@@ -7,7 +7,7 @@ Resource            ../pageObjects/basePage.robot
 
 The First Selenium Test
     Open Browser  http://www.brightest.be  Google Chrome
-    Sleep  5s
+    Sleep  10s
     Close browser
 
 The Selenium Test With Keywords
